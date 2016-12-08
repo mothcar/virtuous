@@ -85,8 +85,8 @@ h6 .heading{margin:0 0 0 0; font-size:27px; line-height:normal; font-weight:norm
   font-family:Georgia, "Times New Roman", Times, serif;
   margin:0 0 0 0;
   font-size:20px;
-  display: inline-block;
-  vertical-align: middle;
+  /*display: inline-block;*/
+  /*vertical-align: middle;*/
 }
 .paul-font {
   font-family:Georgia, "Times New Roman", Times, serif;
@@ -94,6 +94,11 @@ h6 .heading{margin:0 0 0 0; font-size:27px; line-height:normal; font-weight:norm
   font-size:30px;
   display: inline-block;
   vertical-align: middle;
+}
+.paul-font2 {
+  font-family:Georgia, "Times New Roman", Times, serif;
+  /*margin:0 0 0 0;*/
+  font-size:20px;
 }
 
 
@@ -180,4 +185,25 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
     display: table-cell;
     vertical-align: middle;
     text-align: left;
+}
+.paul-container {
+  border-bottom: 1px solid #aac7ef;
+  /*margin-top: 20px;*/
+  /*display: block;*/
+  width: 100%;
+}
+.paul-two-left {
+  text-align: right;
+  width: 50%;
+  height: 62px;
+  float:left;
+}
+.paul-two-right {
+  width: 50%;
+  height: 62px;
+  float:right;
+  vertical-align: middle;
+}
+.paul-clear {
+  clear:both;
 }
