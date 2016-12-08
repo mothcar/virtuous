@@ -187,23 +187,41 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
     text-align: left;
 }
 .paul-container {
-  border-bottom: 1px solid #aac7ef;
-  /*margin-top: 20px;*/
+  /*border-bottom: 1px solid #aac7ef;*/
+  padding-top: 5px;
   /*display: block;*/
   width: 100%;
 }
 .paul-two-left {
-  text-align: right;
+  display: inline-block;
+  height: 50px;
   width: 50%;
-  height: 62px;
-  float:left;
+  text-align: right;
+
 }
 .paul-two-right {
   width: 50%;
-  height: 62px;
+  height: 50px;
   float:right;
   vertical-align: middle;
 }
 .paul-clear {
   clear:both;
+}
+.paul-hr{
+  border:1px solid #aac7ef;
+}
+.paul-div-menu {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  border: 2px dashed #f69c55;
+}
+.paul-menu-span {
+  font-family:Georgia, "Times New Roman", Times, serif;
+  padding:7px 20px 35px 0;
+  font-size: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
