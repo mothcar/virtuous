@@ -225,3 +225,40 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
   vertical-align: middle;
   line-height: normal;
 }
+.paul-explain {
+  padding:20px;
+}
+
+ol {
+    display: block;
+    padding: 0 0 0 26px;
+    list-style: none;
+    /*background: #ccc;*/
+    overflow: hidden;
+    counter-reset: numList;
+}
+ol li {
+  margin: 0 0 0 50px;
+    width: 176px;
+    margin-right: 44px;
+    /*float: left;*/
+    position: relative
+}
+ol li:before {
+    counter-increment: numList;
+    content: counter(numList);
+    /*float: left;*/
+    position: absolute;
+    left: -26px;
+
+    font: bold 10px sans-serif;
+    text-align: center;
+    color: #fff;
+    line-height: 18px;
+
+    width: 18px; height: 18px;
+    background: #4d4d4d;
+
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+}

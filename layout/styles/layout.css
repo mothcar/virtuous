@@ -267,7 +267,7 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#CBCBCB; background-color:#1A1A1A;}
+body{color:#0d0d0d; background-color:#1A1A1A;}
 a{color:#05B3F2;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
@@ -288,11 +288,11 @@ blockquote::before{color:rgba(0,0,0,.05);}
 
 
 /* Rows */
-.row0, .row0 a{color:#929292; background-color:#F6F6F6;}
+.row0, .row0 a{color:#1a1a1a; background-color:#F6F6F6;}
 .row0{box-shadow:0 10px 10px rgba(0,0,0,.05);}
-.row1{color:#929292; background-color:#FFFFFF;}
+.row1{color:#1a1a1a; background-color:#FFFFFF;}
 .row2, .row2 a{}
-.row3{color:#929292; background-color:#FFFFFF;}
+.row3{color:#1a1a1a; background-color:#FFFFFF;}
 .row4{color:#CBCBCB; background-color:#222222;}
 .row5, .row5 a{color:#CBCBCB; background-color:#1A1A1A;}
 
